@@ -5,15 +5,13 @@ There are also a website and android app as interfaces (this was my first time w
 ## How does it look like?
 Android studio app:
 
-<img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_start.png" width="200" height="500">
-
-![app_start](https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_start.png)
-![app_adress](https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_adress.PNG) 
-![app_invalid](https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_invalid.PNG)
-![app_about](https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_about.PNG)
-![app_measurement](https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_measurement.png)
-![app_rgb](https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_rgb.PNG)
-![app_display](https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_display.PNG)
+<img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_start.png" width="300">
+<img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_adress.PNG" width="300">
+<img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_invalid.PNG" width="300">
+<img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_about.PNG" width="300">
+<img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_measurement.png" width="300">
+<img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_rgb.PNG" width="300">
+<img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_display.PNG" width="300">
 
 ## This repository includes:
 - **Serwer** - includes files to paste on Raspberry Pi.
