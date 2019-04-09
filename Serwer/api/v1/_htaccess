@@ -1,0 +1,4 @@
+RewriteEngine On # Turn on the rewriting engine
+RewriteRule ^czujniki/?$ czujniki.php [NC,L]
+#RewriteRule ^czujniki/([0-9]+)/?$ czujniki.php?id=$1 [NC,L]
+RewriteRule ^czujniki/(.*)$ czujniki.php/?idName=$1 [NC,L]

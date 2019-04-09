@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lighter_background"
+    tools:context=".DiodeActivity">
+
+    <Button
+        android:id="@+id/rgb_button"
+        android:layout_width="190dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="85dp"
+        android:background="@color/logo_orange"
+        android:text="@string/choose_color"
+        android:textColor="@color/lighter_background"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/rgb_view"
+        android:layout_width="281dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="39dp"
+        android:text="@string/default_color"
+        android:textAlignment="center"
+        android:textColor="@color/string_light_grey"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgb_button" />
+
+    <EditText
+        android:id="@+id/diodetext_input"
+
+        android:layout_width="280dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/dark_grey"
+        android:ems="10"
+        android:gravity="left"
+        android:hint="@string/input_text"
+        android:inputType="text|textMultiLine|textCapSentences"
+        android:maxLength="80"
+        android:maxLines="3"
+        android:textAlignment="center"
+        android:textColor="@color/almost_white"
+        android:textColorHint="@color/string_light_grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgb_view" />
+
+    <TextView
+        android:id="@+id/ip2_view"
+        tools:layout_editor_absoluteX="306dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_width="99dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/connected_to"
+        android:textAlignment="textEnd"
+        android:textColor="@color/string_light_grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/ip_adress2_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/logo_orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ip2_view" />
+
+    <Button
+        android:id="@+id/display_button"
+        android:layout_width="186dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="90dp"
+        android:background="@color/logo_orange"
+        android:text="@string/display"
+        android:textAllCaps="false"
+        android:textColor="@color/dark_grey"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diodetext_input" />
+
+    <ImageView
+        android:id="@+id/appIcon2"
+        android:layout_width="36dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/icon_orange" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Weather app</string>
+    <string name="press_string">Press to continue ...</string>
+    <string name="logo_description">Poznan University of Technology logo</string>
+    <string name="ip_input"> IP adress</string>
+    <string name="connect_string">Connect</string>
+    <string name="temp_string">▪ Temperature:</string>
+    <string name="pressure_string">▪ Pressure:</string>
+    <string name="humidity_string">▪ Humidity:</string>
+    <string name="connected_to">Connected to:</string>
+    <string name="about_string">About application</string>
+    <string name="nan">Nan</string>
+    <string name="json">JSON: </string>
+    <string name="error">Unable to connect to the server</string>
+    <string name="choose_color">CHOOSE TEXT COLOUR</string>
+    <string name="default_color">R: 163 G: 67 B: 15</string>
+    <string name="input_text">Type text here</string>
+    <string name="display">Display text</string>
+</resources>

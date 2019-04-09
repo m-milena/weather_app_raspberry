@@ -1,0 +1,166 @@
+body {
+background-color: #202020 !important;
+    
+    align-items: center;
+}
+
+#text_ip {
+	text-align: center;
+	color: cacaca !important;
+	font-size: 25px;
+}
+
+#input_ip {
+  width: 200px;
+  height: 35px;
+  border: 2px solid #b65105;
+  background-color: #131313;
+  color: cacaca;
+  text-align: center;
+  border-radius: 12px;
+}
+
+#button_connect:hover {
+background-color: #b65105;
+color: #202020;
+padding: 5px 64px;
+text-align: center;
+font-size: 16px;
+border: none;
+border-radius: 12px;
+
+}
+
+#led_button:hover {
+background-color: #b65105;
+color: #202020;
+padding: 5px 64px;
+text-align: center;
+font-size: 16px;
+border: none;
+border-radius: 12px;
+}
+
+
+#dd{
+text-align: center;
+}
+
+#button_connect {
+	background-color: #202020;
+	border: 2px solid #b65105;
+	color: #b65105;
+	padding: 5px 64px;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 12px;
+}
+
+#led_button {
+	background-color: #202020;
+	border: 2px solid #b65105;
+	color: #b65105;
+	padding: 5px 64px;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 12px;
+}
+h1 {
+	color: #cacaca !important;
+}
+#temp {
+margin-left: 10px;
+font-weight: bold;
+background-color: #b65105;
+color: #202020;
+padding: 0px 30px;
+text-align: center;
+font-size: 30px;
+border: none;
+border-radius: 10px;
+}
+#pressure {
+margin-left: 10px;
+font-weight: bold;
+background-color: #b65105;
+color: #202020;
+padding: 0px 15px;
+text-align: center;
+font-size: 30px;
+border: none;
+border-radius: 10px;
+}
+
+#humidity {
+margin-left: 5px;
+font-weight: bold;
+background-color: #b65105;
+color: #202020;
+padding: 0px 34px;
+text-align: center;
+font-size: 30px;
+border: none;
+border-radius: 10px;
+}
+
+#text_conn {
+color: #cacaca;
+text-align: right;
+}
+#ip_adress {
+color: #b65105;
+}
+
+
+#about_text {
+color: #cacaca;
+}
+
+.picker{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 200px;
+	height: 180px;
+}
+#display_color{
+	width: 100%;
+	height: 20px;
+	background: #b65105;
+	transition: background 100ms;
+	margin-top: 30px;
+	border: 1px solid #000;
+}
+#red{
+	display: block;
+	width: 100%;
+}
+
+#blue{
+	display: block;
+	width: 100%;
+}
+
+#green{
+	display: block;
+	width: 100%;
+}
+
+
+
+#text_to_display {
+  min-width: 210px;
+  max-width: 500px;
+  padding: 10px;
+  align-self: center;
+  height: 37px;
+  border: 2px solid #b65105;
+  background-color: #131313;
+  color: cacaca;
+  text-align: center;
+  border-radius: 12px;
+}
+

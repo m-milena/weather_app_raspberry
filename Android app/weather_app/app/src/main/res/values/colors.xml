@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="logo_orange">#a3430f</color>
+    <color name="logo_green">#1f6841</color>
+    <color name="string_light_grey">#696969</color>
+    <color name="foreground_material_dark">#000000</color>
+    <color name="background_material_dark">#1d1d1d</color>
+    <color name="primary_material_dark">#0d0d0d</color>
+    <color name="lighter_background">#1e1e1e</color>
+    <color name="almost_white">#cacaca</color>
+    <color name="dark_grey">#0d0d0d</color>
+    <color name="red">#b81919</color>
+
+</resources>

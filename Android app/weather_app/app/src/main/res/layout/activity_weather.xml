@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeatherActivity">
+
+
+    <TextView
+        android:id="@+id/humidityView"
+        android:layout_width="201dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/logo_orange"
+        android:text="@string/nan"
+        android:textAlignment="center"
+        android:textColor="@color/lighter_background"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/hummidityIcon"
+        app:layout_constraintTop_toBottomOf="@+id/textHumiView" />
+
+    <TextView
+        android:id="@+id/pressureView"
+        android:layout_width="201dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/logo_orange"
+        android:text="@string/nan"
+        android:textAlignment="center"
+        android:textColor="@color/lighter_background"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/pressureIcon"
+        app:layout_constraintTop_toBottomOf="@+id/textPressView" />
+
+    <TextView
+        android:id="@+id/tempView"
+        android:layout_width="199dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/logo_orange"
+        android:text="@string/nan"
+        android:textAlignment="center"
+        android:textColor="@color/lighter_background"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/tempIcon"
+        app:layout_constraintTop_toBottomOf="@+id/textTempView" />
+
+    <TextView
+        android:id="@+id/textHumiView"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/humidity_string"
+        android:textColor="@color/string_light_grey"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pressureIcon" />
+
+    <TextView
+        android:id="@+id/textPressView"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/pressure_string"
+        android:textColor="@color/string_light_grey"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tempIcon" />
+
+    <TextView
+        android:id="@+id/textTempView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/temp_string"
+        android:textColor="@color/string_light_grey"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tempIcon"
+        android:layout_width="34dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textTempView"
+        app:srcCompat="@drawable/temp_go" />
+
+    <ImageView
+        android:id="@+id/hummidityIcon"
+        android:layout_width="33dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textHumiView"
+        app:srcCompat="@drawable/humidity_go" />
+
+    <ImageView
+        android:id="@+id/pressureIcon"
+        android:layout_width="33dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPressView"
+        app:srcCompat="@drawable/pressure_go4" />
+
+    <TextView
+        android:id="@+id/connectView"
+        android:layout_width="99dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/connected_to"
+        android:textAlignment="textEnd"
+        android:textColor="@color/string_light_grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ipView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/logo_orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/connectView" />
+
+    <ImageView
+        android:id="@+id/appIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/icon_orange" />
+
+
+    <TextView
+        android:id="@+id/testConnection"
+        android:layout_width="330dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="41dp"
+        android:background="@color/dark_grey"
+        android:scrollbarFadeDuration="0"
+        android:scrollbars="vertical"
+        android:textAlignment="viewStart"
+        android:textColor="@color/string_light_grey"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="92dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/json"
+        android:textColor="@color/string_light_grey"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/humidityView" />
+
+    <TextView
+        android:id="@+id/zyroskopView"
+        android:layout_width="316dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/testConnection" />
+
+</android.support.constraint.ConstraintLayout>
