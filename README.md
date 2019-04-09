@@ -5,7 +5,8 @@ There are also a website and android app as interfaces (this was my first time w
 ## How does it look like?
 Android studio app:
 
-![app_start](https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_start.png&s=50)
+<img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_start.png" width="400" height="790">
+![app_start](https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_start.png)
 ![app_adress](https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_adress.PNG) 
 ![app_invalid](https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_invalid.PNG)
 ![app_about](https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_about.PNG)
