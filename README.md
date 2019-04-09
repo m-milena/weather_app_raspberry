@@ -16,11 +16,11 @@ There are also a website and android app as interfaces (this was my first time w
 
 **Website:**
 
-<img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/start_page.png" width="890">
-<img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/invalid_adress.png" width="890">
-<img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/measurement.png" width="890">
-<img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/about.png" width="890">
-<img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/display_text.png" width="890">
+<img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/start_page.png" width="880">
+<img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/invalid_adress.png" width="880">
+<img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/measurement.png" width="880">
+<img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/about.png" width="880">
+<img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/display_text.png" width="880">
 
 ## How to run this on your Raspberry Pi with Sense Hat?
 
