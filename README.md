@@ -12,7 +12,7 @@ There are also a website and android app as interfaces (this was my first time w
 ## How does it look like?
 **Android Studio app screenshots:**
 
-<img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_start.PNG" width="300"><img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_invalid.PNG" width="300"><img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_about.PNG" width="300"><img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_measurement.png" width="300"><img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_rgb.PNG" width="300"><img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_display.PNG" width="300">
+<img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_start.PNG" width="290"><img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_invalid.PNG" width="290"><img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_about.PNG" width="290"><img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_measurement.png" width="290"><img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_rgb.PNG" width="290"><img src="https://github.com/m-milena/weather_app_raspberry/blob/master/Images/app_display.PNG" width="290">
 
 **Website:**
 
